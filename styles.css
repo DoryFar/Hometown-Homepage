@@ -1,0 +1,112 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin: 0;
+    background-image: url("images/Tehran.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header > h1 {
+    background-color: #F1FAEE;
+    opacity: 0.8;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #1D3557;
+}
+
+.header > h2 {
+    background-color: #A8DADC;
+    margin: 0 50px;
+    opacity: 0.8;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #1D3557;
+}
+
+.main {
+    background-color: #F1FAEE;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+}
+
+.activity {
+    padding: 20px;
+    width: 30%;
+}
+
+.activity > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #457B9D;
+}
+
+.activity > img:hover {
+    transform: scale(1.4);
+    transition: 500ms;
+}
+
+.footer {
+    background-color: #A8DADC; 
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    background-color: #1D3557; 
+    color: #F1FAEE;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    border-bottom: #457B9D solid 10px;
+    box-shadow: 0 0 30px #457B9D;
+}
+
+.info {
+    padding: 10px;
+}
+
+.card > img {
+    border-radius: 20px;
+    height: 100%;
+    width: 45%;
+}
