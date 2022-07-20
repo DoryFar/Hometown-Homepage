@@ -21,6 +21,7 @@ body {
     background-image: url("images/Tehran.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 350px;
     display: flex;
     flex-direction: column;
